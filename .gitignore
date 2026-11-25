@@ -1,0 +1,31 @@
+# Dados (contêm informações de alunos - NÃO versionar)
+data/raw/*
+!data/raw/.gitkeep
+*.csv
+*.xlsx
+*.xls
+*.parquet
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# MLflow local
+mlruns/
+mlartifacts/
+
+# Credenciais e segredos
+.env
+.databrickscfg
+*.pem
+*token*
+
+# IDE / SO
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
